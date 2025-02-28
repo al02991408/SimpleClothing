@@ -1,0 +1,22 @@
+{
+  "name": "simpleclothing-functions",
+  "description": "Firebase Functions for SimpleClothing project",
+  "engines": {
+    "node": "14"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.3.1",
+    "firebase-functions": "^11.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "firebase serve --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "private": true
+}
